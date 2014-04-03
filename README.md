@@ -7,14 +7,12 @@ To Do List
 * ~~Put JS in separate file~~
 * ~~Remove old files~~
 * ~~GitHub ribbon~~
-* Update names
-* Ways of filtering out shitty names
-	* While loop
-	* Other ways
-* Way to tweet the name?
-* Add docs
-* Store data better
+* ~~Test for off-by-one error~~
+* ~~Add license~~
+* ~~Update names~~
+	* ~~Occasionally add "2" at the end~~
 * CSS & design
+* Way to tweet the name?
 * Upload to server
 * Redirect URL
 
