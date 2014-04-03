@@ -4,7 +4,9 @@ Found at [realitytvgenerator.com](http://realitytvgenerator.com/).
 
 To Do List
 ----------
+* ~~Put JS in separate file~~
 * ~~Remove old files~~
+* ~~GitHub ribbon~~
 * Update names
 * Ways of filtering out shitty names
 	* While loop
