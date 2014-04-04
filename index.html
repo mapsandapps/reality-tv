@@ -2,7 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Reality TV Name Generator</title>
+    <meta name="viewport" content="width=device-width, user-scalable=yes">
+    <title>Reality TV Show Name Generator</title>
     <link rel="icon" 
       type="image/png" 
       href="http://mollietaylor.com/favicon.png">
@@ -18,13 +19,13 @@
     </div>
     <div class="wrapper">
       <header>
-        <h1 class="header">Reality TV show name generator</h1>
-
-        <p class="header">This project is maintained by <a class="header name" href="http://proximityviz.com/">Mollie Taylor</a>.</p>
-
-
+        <div class="header-text">
+          <h1 class="header">Reality TV Show Name Generator</h1>
+          Generate a random TV show name and share it to Twitter.
+        </div>
       </header>
       <section>
+        <hr>
         <h1 id='show-name'>
           <script language="JavaScript">
             <!--
@@ -47,7 +48,15 @@
           var el = document.getElementById("custom-tweet-button");
           el.setAttribute("data-text", el.getAttribute("data-text") + name + " | Generated at");
           </script>
+
+          <hr>
+          <br>Refresh for another name!
       </section>
+
+      <footer>
+        Any names generated that belong to actual reality shows are purely by chance.
+        <br>This project is maintained by <a href="http://proximityviz.com/">Mollie Taylor</a>.
+      </footer>
 
     </div>
 

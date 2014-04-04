@@ -6,6 +6,7 @@
   position: absolute;
   left: -50px;
   top: 40px;
+  z-index: 5;
   /* 45 deg ccw rotation */
   -webkit-transform: rotate(-45deg);
      -moz-transform: rotate(-45deg);
@@ -33,4 +34,68 @@
 
 #show-name {
   font-family: 'Exo 2',Helvetica,sans-serif;
+}
+
+.wrapper {
+  position: absolute;
+  width: 100%;
+}
+
+html, body{
+  margin: 0px;
+  border: 0px;
+  font-size: 14px;
+}
+
+header, section, footer {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+header, footer {
+  background-color: #210;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 2em;
+  margin: 0px;
+}
+
+header p {
+  margin-bottom: 0px;
+}
+
+section {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+section h1 {
+  font-size: 3em;
+}
+
+a {
+  color: #f07300;
+}
+
+hr {
+  border: 1px #f07300 dashed;
+  margin-top, margin-bottom: 30px;
+}
+
+#custom-tweet-button {
+  margin-bottom: 30px;
+}
+
+.header-text {
+  position: relative;
+  width: 50%;
+  left: 25%;
 }
