@@ -11,10 +11,13 @@ To Do List
 * ~~Add license~~
 * ~~Update names~~
 	* ~~Occasionally add "2" at the end~~
+* ~~Option to tweet the name~~
 * CSS & design
-* Way to tweet the name?
+* Fix GitHub ribbon location
 * Upload to server
 * Redirect URL
+* Disclaimer
+* Let people write summaries of generated shows
 
 Credits
 -------

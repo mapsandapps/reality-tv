@@ -338,3 +338,5 @@ while (first_rand == second_rand){
 if (Math.floor(Math.random()*31) == 0) {
 	second_rand += " 2";
 };
+
+var name = first_rand + " " + second_rand;

@@ -3,8 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>Reality TV Name Generator</title>
+    <link rel="icon" 
+      type="image/png" 
+      href="http://mollietaylor.com/favicon.png">
     <script type="text/javascript" src="generate-name.js"></script>
     <link rel="stylesheet" href="stylesheet.css"></style>
+    <link href='http://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
+
   </head>
   <body>
 
@@ -20,15 +25,28 @@
 
       </header>
       <section>
-        <h1>
+        <h1 id='show-name'>
           <script language="JavaScript">
             <!--
-            document.write(first_rand + " " + second_rand);
+            document.write(name);
             // -->
             </script>
         </h1>
+        <a id="custom-tweet-button" href="https://twitter.com/share" class="twitter-share-button" data-lang="en" data-size="large" data-text="Random Reality Show Name: " data-url="http://realitytvgenerator.com/">Tweet</a>
+        <script>
+        !function(d,s,id){
+          var js,fjs=d.getElementsByTagName(s)[0];
+          if(!d.getElementById(id)){
+            js=d.createElement(s);
+            js.id=id;
+            js.src="https://platform.twitter.com/widgets.js";
+            fjs.parentNode.insertBefore(js,fjs);
+            }
+          }(document,"script","twitter-wjs");
 
-        <p>Refresh for another name!</p>
+          var el = document.getElementById("custom-tweet-button");
+          el.setAttribute("data-text", el.getAttribute("data-text") + name + " | Generated at");
+          </script>
       </section>
 
     </div>
