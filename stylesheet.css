@@ -1,44 +1,17 @@
-.ribbon {
-  background-color: #f07300;
-  overflow: hidden;
-  white-space: nowrap;
-  /* top left corner */
-  position: absolute;
-  left: -50px;
-  top: 40px;
-  z-index: 5;
-  /* 45 deg ccw rotation */
-  -webkit-transform: rotate(-45deg);
-     -moz-transform: rotate(-45deg);
-      -ms-transform: rotate(-45deg);
-       -o-transform: rotate(-45deg);
-          transform: rotate(-45deg);
-  /* shadow */
-  -webkit-box-shadow: 0 0 10px #888;
-     -moz-box-shadow: 0 0 10px #888;
-          box-shadow: 0 0 10px #888;
-}
-
-.ribbon a {
-  border: 1px solid #faa;
-  color: #fff;
-  display: block;
-  font: bold 81.25% 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  margin: 1px 0;
-  padding: 10px 50px;
-  text-align: center;
-  text-decoration: none;
-  /* shadow */
-  text-shadow: 0 0 5px #444;
-}
-
 #show-name {
   font-family: 'Exo 2',Helvetica,sans-serif;
 }
 
-.wrapper {
-  position: absolute;
-  width: 100%;
+#left-col {
+  /*position: absolute;*/
+  width: 700px;
+  float: left;
+}
+
+#right-col {
+  width: 400px;
+  float: left;
+  padding: 20px;
 }
 
 html, body{
@@ -98,4 +71,8 @@ hr {
   position: relative;
   width: 50%;
   left: 25%;
+}
+
+img {
+  background-color: white;
 }
